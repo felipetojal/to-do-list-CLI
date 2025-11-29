@@ -1,8 +1,8 @@
-📝 Go Task CLI
+##Go Task CLI
 
 A lightweight and efficient command-line interface (CLI) task manager, developed in Go. This project uses local JSON persistence and demonstrates the use of flags, file manipulation, and data structures in Go.
 
-🚀 Features
+# Features
 
 Task Creation: Adds tasks with auto-incrementing IDs (Sequence).
 
@@ -16,7 +16,7 @@ Removal: Deletes tasks while maintaining list integrity.
 
 Persistence: Data is automatically saved in the tasks.json file.
 
-🛠️ Installation and Execution
+# Installation and Execution
 
 Prerequisites: Go installed (version 1.22 or higher).
 
@@ -37,16 +37,16 @@ go build -o task-cli .
 # Now you can just run: ./task-cli -list
 
 
-📖 Usage Guide
+# Usage Guide
 
 1. Add a Task
 
 Use the -add flag for the title. Optionally use -desc for a description.
 
-# Simple
+Simple
 go run . -add "Study Go"
 
-# With description (Use quotes if it contains spaces)
+With description (Use quotes if it contains spaces)
 go run . -add "Finish Project" -desc "Write the README and push to Git"
 
 
@@ -71,7 +71,7 @@ Use the -delete flag passing the task ID.
 go run . -delete 1
 
 
-📂 Project Structure
+# Project Structure
 
 The project follows a simple architecture for CLIs:
 

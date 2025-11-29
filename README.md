@@ -4,15 +4,15 @@ A lightweight and efficient command-line interface (CLI) task manager, developed
 
 # Features
 
-## Task Creation: Adds tasks with auto-incrementing IDs (Sequence).
+ Task Creation: Adds tasks with auto-incrementing IDs (Sequence).
 
-## Optional Description: Support for titles and detailed descriptions.
+ Optional Description: Support for titles and detailed descriptions.
 
-## Listing: Formatted view of all pending and completed tasks.
+ Listing: Formatted view of all pending and completed tasks.
 
-## Completion: Marks tasks as done.
+ Completion: Marks tasks as done.
 
-## Removal: Deletes tasks while maintaining list integrity.
+ Removal: Deletes tasks while maintaining list integrity.
 
 Persistence: Data is automatically saved in the tasks.json file.
 
@@ -39,7 +39,7 @@ go build -o task-cli .
 
 # Usage Guide
 
-1. Add a Task
+## 1. Add a Task
 
 Use the -add flag for the title. Optionally use -desc for a description.
 
@@ -50,21 +50,21 @@ With description (Use quotes if it contains spaces)
 go run . -add "Finish Project" -desc "Write the README and push to Git"
 
 
-2. List Tasks
+## 2. List Tasks
 
 Displays ID, Title, Description, Status, and Creation Date.
 
 go run . -list
 
 
-3. Complete a Task
+## 3. Complete a Task
 
 Use the -complete flag passing the task ID.
 
 go run . -complete 1
 
 
-4. Delete a Task
+## 4. Delete a Task
 
 Use the -delete flag passing the task ID.
 

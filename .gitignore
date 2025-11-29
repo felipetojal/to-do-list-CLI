@@ -1,0 +1,10 @@
+# Binários
+*.exe
+*.exe~
+*.dll
+
+# Arquivo de dados local
+tasks.json
+
+# IDE
+.idea/

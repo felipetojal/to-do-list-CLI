@@ -1,4 +1,4 @@
-##Go Task CLI
+#Go Task CLI
 
 A lightweight and efficient command-line interface (CLI) task manager, developed in Go. This project uses local JSON persistence and demonstrates the use of flags, file manipulation, and data structures in Go.
 

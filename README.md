@@ -1,18 +1,18 @@
-#Go Task CLI
+# Go Task CLI
 
 A lightweight and efficient command-line interface (CLI) task manager, developed in Go. This project uses local JSON persistence and demonstrates the use of flags, file manipulation, and data structures in Go.
 
 # Features
 
-Task Creation: Adds tasks with auto-incrementing IDs (Sequence).
+## Task Creation: Adds tasks with auto-incrementing IDs (Sequence).
 
-Optional Description: Support for titles and detailed descriptions.
+## Optional Description: Support for titles and detailed descriptions.
 
-Listing: Formatted view of all pending and completed tasks.
+## Listing: Formatted view of all pending and completed tasks.
 
-Completion: Marks tasks as done.
+## Completion: Marks tasks as done.
 
-Removal: Deletes tasks while maintaining list integrity.
+## Removal: Deletes tasks while maintaining list integrity.
 
 Persistence: Data is automatically saved in the tasks.json file.
 
